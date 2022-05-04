@@ -1,0 +1,15 @@
+node_modules/
+
+# Output directory
+dist/
+
+# Yarn 3
+.yarn/*
+!.yarn/releases
+
+# Cache directory
+.chooks/
+
+# dotenv environment variable files
+.env
+.env*.local

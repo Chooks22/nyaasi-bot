@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://json.schemastore.org/pm2-ecosystem.json
+apps:
+  - script: node
+    args: ["start"]
+    kill_timeout: 1600
+    exec_mode: fork
+    min_uptime: 5000
+    max_restarts: 16
+    autorestart: true
